@@ -4,6 +4,7 @@ var loado=require('../index');
 var path=require('path');
 
 
+
 describe('the result of my first test for loado', function () {
     describe('should be', function () {
         it("an Array", function (done) {
