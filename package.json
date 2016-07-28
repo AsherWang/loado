@@ -1,0 +1,9 @@
+{
+    "name": "loado",
+    "version": "0.0.1",
+    "repository": "https://github.com/AsherWang/loado"
+    "scripts":{
+      "test":"mocha"
+    },
+    "license": "MIT"
+}
