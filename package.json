@@ -2,8 +2,11 @@
     "name": "loado",
     "version": "0.0.1",
     "repository": "https://github.com/AsherWang/loado",
-    "scripts":{
-      "test":"mocha"
+    "scripts": {
+        "test": "mocha"
     },
-    "license": "MIT"
+    "license": "MIT",
+    "devDependencies": {
+        "mocha": "^2.5.3"
+    }
 }
