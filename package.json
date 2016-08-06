@@ -1,10 +1,12 @@
 {
     "name": "loado",
-    "version": "0.0.1",
+    "version": "1.0.0",
+    "description": "load node modules in a folder and then run with them.",
     "repository": "https://github.com/AsherWang/loado",
     "scripts": {
         "test": "mocha"
     },
+    "author": "Asher",
     "license": "MIT",
     "devDependencies": {
         "mocha": "^2.5.3"
