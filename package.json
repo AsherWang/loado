@@ -1,6 +1,6 @@
 {
     "name": "loado",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "load node modules in a folder and then run with them.",
     "repository": "https://github.com/AsherWang/loado",
     "scripts": {
