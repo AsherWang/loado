@@ -4,7 +4,8 @@
     "description": "load node modules in a folder and then run with them.",
     "repository": "https://github.com/AsherWang/loado",
     "scripts": {
-        "test": "mocha"
+        "test": "mocha",
+        "publish":"npm publish loado  --access public"
     },
     "author": "Asher",
     "license": "MIT",
