@@ -1,20 +1,14 @@
 var fs = require('fs');
 var path = require('path');
 
-function not_empty(obj) {
-    for (var o in obj) {
-        return true;
-    }
-    return false;
-}
-
 // run cb for each element
 // default cb is: function (o){return o}
+// ret will not collect null value
 function travel_array(list, cb) {
     var ret = [];
     for (var index = 0; index < list.length; ++index) {
         var tmp = cb ? cb(list[index]) : list[index];
-        if (tmp && not_empty(tmp)) {
+        if (tmp) {
             ret.push(tmp);
         }
     }
