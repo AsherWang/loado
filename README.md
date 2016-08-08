@@ -31,7 +31,7 @@ options for `load`
 
 + container: []\(default\) or {}, will be returned by function `do` after appending some values to it  
     + when {}  
-    　　`loado.load(...).do(...)` will return a json object, filename(etx name removed) or folder name as key
+    　　`loado.load(...).do(...)` will return a json object, filename(ext name removed) or folder name as key
 
     + when []  
     　　return an array
