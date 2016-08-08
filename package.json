@@ -1,15 +1,29 @@
 {
-    "name": "loado",
-    "version": "1.0.1",
-    "description": "load node modules in a folder and then run with them.",
-    "repository": "https://github.com/AsherWang/loado",
-    "scripts": {
-        "test": "mocha",
-        "publish":"npm publish loado  --access public"
-    },
-    "author": "Asher",
-    "license": "MIT",
-    "devDependencies": {
-        "mocha": "^2.5.3"
-    }
+  "name": "loado",
+  "version": "1.1.0",
+  "description": "load node modules in a folder and then run with them.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AsherWang/loado.git"
+  },
+  "scripts": {
+    "test": "mocha",
+    "publish": "npm publish loado  --access public"
+  },
+  "author": "Asher",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^2.5.3",
+    "should": "^10.0.0"
+  },
+  "bugs": {
+    "url": "https://github.com/AsherWang/loado/issues"
+  },
+  "homepage": "https://github.com/AsherWang/loado#readme",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "keywords": []
 }
